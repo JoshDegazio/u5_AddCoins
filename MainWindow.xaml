@@ -1,0 +1,16 @@
+﻿<Window x:Class="_182685_u5_AddCoins.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_182685_u5_AddCoins"
+        mc:Ignorable="d"
+        Title="Add Coins" Height="450" Width="800">
+    <StackPanel>
+        <Label Content="Made by Josh Degazio"/>
+        <TextBlock Text="Press 'Enter' after each value is entered"/>
+        <TextBox x:Name="tB_Input" PreviewKeyUp="tB_Input_PreviewKeyUp" Text="Toonies:"/>
+        <Button Click="Button_Click" Content="Run"/>
+        <TextBlock x:Name="tB_Output" Text="Output will appear here"/>
+    </StackPanel>
+</Window>
